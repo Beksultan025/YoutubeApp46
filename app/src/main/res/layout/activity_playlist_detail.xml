@@ -5,4 +5,9 @@
     android:layout_height="match_parent"
     tools:context=".ui.playlists_detail.PlaylistDetailActivity">
 
+    <include
+        android:id="@+id/network_layout"
+        layout="@layout/no_network"
+        android:visibility="gone" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

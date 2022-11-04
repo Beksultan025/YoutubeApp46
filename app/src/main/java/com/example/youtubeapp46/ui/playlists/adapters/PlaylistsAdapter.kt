@@ -22,7 +22,7 @@ class PlaylistsAdapter(private var list : List<Item> , private val onClick: (pos
             binding.tvDesc.text = playlistsTitle
             binding.tvSer.text = displayNumber
 
-            binding.root.setOnClickListener {
+            itemView.setOnClickListener {
                 onClick(items.id)
             }
         }
